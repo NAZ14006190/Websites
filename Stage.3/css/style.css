@@ -3,26 +3,26 @@
     background-position: top;
     background-size: cover;
     font-family: 'Old Standard TT', serif;
-
     color:white;
 }
 
 #section-2 {
-    background-color: #A68358;
+
 
 }
 
 #section-3 {
     background-color: #A67563;
-    padding-top: 35px;
-    font-size: 2vh;
+    padding-top: 3vw;
+    font-size: 2vw;
 }
 #section-4 {
-    background-color: #BFAD54;
+    background-color: #A68358;
 }
 #section-5 {
     background-color: #D9BBA9;
-    padding-top: 35px;
+    padding-top: 6vh;
+;
 
 }
 #navbarNav
@@ -44,37 +44,33 @@
 .main-header
 {
     font-family: 'Old Standard TT', serif;
+    font-size: 3vh ;
+
 }
 .events
 {
-    font-size: 4vh;
+    font-size: 3vh;
     color: white;
 }
 .description
 {
     font-family: 'Quattrocento', serif;
+    font-size: 2vh;
 }
-.menus
-{
-    font-size: 3vh;
-}
-.carousel-item {
-    height: 70vh;
 
-}
 .centered {
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 22px;
+    font-size: 2vh;
     text-align: center;
 }
 .map-and-phone
 {
-    padding-left: 10px;
+    padding-left: 6vw ;
 }
-#joke {
+.joke {
     flex: 13 1 auto;
     padding: 6rem 1rem;
     background-color: #292b2c;
@@ -87,15 +83,31 @@
 
 .caption {
     position: absolute;
-    top: 45%;
+    top: 50%;
     left: 0;
     width: 100%;
+    background-repeat: no-repeat; background-size: cover;
 }
 .caption2 {
     position: absolute;
-    top: 45%;
+    top: 50%;
     right: 0;
     width: 100%;
 }
 
 
+.carousel-inner {
+    height: 100vh;
+
+}
+
+.carousel-item  {
+    height: 100%;
+}
+
+.img1 {
+
+    height: 100%;
+    width: 100%;
+
+}
